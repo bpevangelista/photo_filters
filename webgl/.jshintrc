@@ -1,0 +1,30 @@
+{
+    // Globals exposed by Browsers and Node
+    "esversion": 6,
+    "browser": true,
+    "node": true,
+    "browserify": true,
+
+    // Force the use of === and !==
+    "eqeqeq": true,
+
+    // Prevent empty scopes
+    "noempty": true,
+    
+    // Prohibits the use of arguments.caller and arguments.callee
+    "noarg": true,
+    
+    // Prohibits use of constructor without assigning its result to any variable
+    "nonew": true,
+
+    // Prohibits the use of explicitly undeclared variables
+    "undef": true,
+
+    // Warns when you define and never use your variables
+    "unused": true,
+
+    "predef": [
+        "__dirname", "__filename", "alert", "angular", "cordova", "device", "GENERATED", "L", "module", "require",
+        "facebookConnectPlugin"
+    ]
+}
